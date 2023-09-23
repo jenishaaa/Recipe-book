@@ -1,0 +1,78 @@
+
+body, h1, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #000;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #4B0082;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.page {
+    padding: 20px;
+}
+
+.recipe-image {
+    text-align: center;
+}
+
+.recipe-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #663399;
+}
+
+h3 {
+    color: #4B0082;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.edit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #663399;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #7646c1;
+}
