@@ -1,0 +1,126 @@
+/* Reset some default browser styles */
+body, h1, p, ul, li, button, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #663399; /* Purple background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Page-specific styles */
+.page {
+    padding: 20px;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-size: 36px;
+    color: #663399; /* Purple text color */
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #663399; /* Purple background color */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #7646c1; /* Darker purple on hover */
+}
+
+/* ... (previous CSS styles) */
+
+/* Popular Recipes section */
+.popular-recipes-section {
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.popular-recipes-section h2 {
+    font-size: 28px;
+    color: #663399; /* Purple text color */
+    margin-bottom: 30px;
+}
+
+.recipe {
+    display: inline-block; /* Display recipes side by side */
+    width: calc(50% - 20px); /* 50% width minus some margin for spacing */
+    margin: 0 10px 20px; /* Add spacing between recipes */
+    padding: 15px;
+    background-color: #fff; /* White background color */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    vertical-align: top; /* Align recipes to the top */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.recipe h3 {
+    font-size: 24px;
+    color: #663399; /* Purple text color */
+    margin: 10px 0;
+}
+
+.recipe p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.view-recipe-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #663399; /* Purple background color */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.view-recipe-button:hover {
+    background-color: #7646c1; /* Darker purple on hover */
+}
